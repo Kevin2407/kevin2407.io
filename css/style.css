@@ -2,8 +2,22 @@
   background: #5267d0;
 }
 
-.foto{
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.foto {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.carta {
+  background-color: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.cuerpo-carta{
+    min-height:1px;
+    padding:1.25rem
+}
+
+.tamaño{
+  width: 479px;
 }
