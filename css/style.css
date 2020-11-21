@@ -9,8 +9,8 @@
 }
 
 .carta {
-  background-color: #eeeeee;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 2px groove rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
 
 .cuerpo-carta{
