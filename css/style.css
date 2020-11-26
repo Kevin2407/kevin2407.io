@@ -1,11 +1,24 @@
-.fondo {
-  background: #5267d0;
+/* https://colorhunt.co/palette/220248 */
+
+.fondo-cabecera {
+  background: #30475e;
+}
+
+.fondo-navbar{
+  background-color: #222831;
+}
+
+.fondo{
+  background-color: #f05454;
 }
 
 .foto {
   width: 150px;
   border-radius: 50%;
   margin-bottom: 10px;
+}
+.p-cabecera{
+  padding: 75px 0 25px 0;
 }
 
 .carta {
@@ -23,7 +36,7 @@
 }
 
 .icono{
-  color: #5267d0;
+  color: #f05454;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -32,4 +45,9 @@ h1,h2,h3,h4,h5,h6{
 
 body{
   font-family: 'Patrick Hand', cursive;
+  
+}
+
+html{
+  scroll-behavior: smooth;
 }
