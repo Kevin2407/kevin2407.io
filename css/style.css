@@ -1,14 +1,15 @@
 /* https://colorhunt.co/palette/220248 */
 
-.fondo-cabecera {
+.fondo-azul {
   background: #30475e;
 }
+
 
 .fondo-navbar{
   background-color: #222831;
 }
 
-.fondo-edu {
+.fondo-blanco {
   background-color: white;
 }
 
@@ -38,8 +39,8 @@
 }
 
 .carta {
-  border: 2px groove rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
+  border: 4px groove rgba(0, 0, 0, 0.575);
+  border-radius: 8px;
 }
 
 .cuerpo-carta{
@@ -81,10 +82,9 @@ html{
   font-size: 25px;
 }
 
-.ajuste-titulo {
-}
 
-.ajuste-subtitulo {
+.btnPort {
+  width: 5rem;
 }
 
 @media (max-width: 990px) {
