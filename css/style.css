@@ -169,6 +169,7 @@ html{
   width: 316px;
   height: 216px;
   border: 8px solid #fff;
+  border-radius: 3px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 .ih-item.square .info {
