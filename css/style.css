@@ -1,20 +1,32 @@
 /* https://colorhunt.co/palette/220248 */
 
-body {
+/* Paleta de colores */
+
+.fondo-blanco-crema {
   background-color: #E8E8E8;
-}
-
-.fondo-azul {
-  background: #30475e;
-}
-
-.fondo-navbar{
-  background-color: #222831;
 }
 
 .fondo-blanco {
   background-color: white;
 }
+
+.fondo-azul {
+  background-color: #30475e;
+}
+
+.fondo-azul-oscuro{
+  background-color: #222831;
+}
+
+.fondo-rojo {
+  background-color: #f05454;
+}
+
+.texto-rojo{
+  color: #f05454;
+}
+
+/*  */
 
 .textDeMi {
   display: flex;
@@ -72,13 +84,7 @@ body {
   height: 200px;
 }
 
-.boton {
-  background-color: #f05454;
-}
 
-.icono{
-  color: #f05454;
-}
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Fredoka One', cursive;
@@ -93,11 +99,6 @@ html{
   scroll-behavior: smooth;
 }
 
-.espacio {
-  margin: 0 150px;
-  font-size: 25px;
-}
-
 .btnPort {
   width: 5rem;
 }
@@ -108,10 +109,6 @@ html{
 }
 
 @media (max-width: 990px) {
-  .espacio {
-    margin: 0 50px;
-    font-size: 20px;
-  }
 
   .ajuste-titulo {
     margin: 0 0 4px 0;
@@ -135,6 +132,7 @@ html{
   }
 
 
+
   .ajuste-titulo {
     margin: 0 0 12px 0;
   }
@@ -149,9 +147,9 @@ html{
 }
 
 @media (max-width: 420px) {
-  .espacio {
+  .letraSobreMI {
+    font-size: 10px;
     margin: 0;
-    font-size: 15px;
   }
 
   .divEDU {
@@ -164,15 +162,17 @@ html{
   height: 150px;
 }
 
-/* .redes a:hover{
+/* .redes i:hover {
   color: #30475e;
-} */
+} no funciona */
 
 .ptK {
   padding-top: 50px;
 }
 
-
+/* .puntero-none {
+  pointer-events: none;
+} no funciona */
 
 
 
