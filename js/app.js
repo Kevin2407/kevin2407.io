@@ -1,5 +1,3 @@
-console.log(window.location.pathname);
-
 function noVacio(elemento,condicion) {
     if (elemento.value === "" || condicion) {
       elemento.className = "form-control is-invalid";
@@ -22,22 +20,22 @@ function validar(input,valor) {
     switch(valor){
         case 1:
             noVacio(input,false);
-            return noVacio(input,false);
+            b = noVacio(input,false);
         break;
         case 2:
             noVacio(input,!expresion.test(input.value));
-            return noVacio(input,!expresion.test(input.value));
+            b = noVacio(input,!expresion.test(input.value));
         break;
         case 3:
             noVacio(input,isNaN(input.value));
-            return noVacio(input,isNaN(input.value));
+            b = noVacio(input,isNaN(input.value));
         break;
         case 4:
             noVacio(input,input.value.length <= 10);
-            input.className += " consulta";
-            return noVacio(input,input.value.length <= 10);
+            b = noVacio(input,input.value.length <= 10);
         break;
     }
+    return b;
 }
 
 function validarGeneral(event){
