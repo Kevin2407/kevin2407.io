@@ -162,12 +162,16 @@ html{
   height: 150px;
 }
 
-/* .redes i:hover {
+.redes :hover {
   color: #30475e;
-} no funciona */
+} 
 
 .ptK {
   padding-top: 50px;
+}
+
+footer a {
+  color: #E8E8E8;
 }
 
 /* .puntero-none {

@@ -1,3 +1,5 @@
+console.log(window.location.pathname);
+
 function noVacio(elemento,condicion) {
     if (elemento.value === "" || condicion) {
       elemento.className = "form-control is-invalid";
@@ -45,10 +47,18 @@ function validarGeneral(event){
     if( validar(document.getElementById('nombre'),1) && validar(document.getElementById('email'),2) && validar(document.getElementById('telefono'),3) && validar(document.getElementById('consulta'),4) ){
         enviarEmail();
         alerta.className = 'alert alert-success mt-3';
-        alerta.innerHTML = 'Su consulta fue enviada correctamente'; 
+        if(window.location.pathname === "/index.html"){
+            alerta.innerHTML = 'Your message was submited correctly'; 
+        }else if (window.location.pathname === "/spanishPage.html"){
+            alerta.innerHTML = 'Su consulta fue enviada correctamente'; 
+        }
     }else{
         alerta.className = 'alert alert-danger mt-3';
-        alerta.innerHTML = 'Ocurrio un error, verifique los datos ingresados.';
+        if(window.location.pathname === "/index.html"){
+            alerta.innerHTML = 'ERROR, checked the entered data.'; 
+        }else if (window.location.pathname === "/spanishPage.html"){
+            alerta.innerHTML = 'Ocurrio un error, verifique los datos ingresados.'; 
+        }
     }
 }
 
