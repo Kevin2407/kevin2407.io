@@ -57,37 +57,27 @@ emailjs.init("user_ddoRn0tnonZZiPk0AYJm3");
     </header>
 
     <main>
-      <section class="fondo-azul p-cabecera text-center text-light">
-        <!-- cabecera-->
-        <img src="img/foto-cv.png" alt="Mi foto" class="foto" />
-        <h2>Kevin Martin</h2>
-        <p class="lead">Full Stack Developer</p>
-      </section>
-      <section class="ptK  my-5 container" id="sobreMi">
-        <!--About me-->
-        <h2 class="text-center display-4">Sobre mi</h2>
-        <article class="fondo-blanco shadow p-3 rounded my-3">
-          <h2>Información personal</h2>
-          <hr />
-          <ul class="list-unstyled">
-            <li><span class="font-weight-bold">Edad:</span> 20 años</li>
-            <li>
-              <span class="font-weight-bold">Email:</span>
-              <i class="fas fa-mail-bulk icono"></i> 
-                <a href="mailto:kevmartin2001@gmail.com">kevmartin2001@gmail.com</a>
-            </li>
-            <li>
-              <span class="font-weight-bold">Telefono:</span> +54 9 381 6791746
-            </li>
-          </ul>
-          <hr />
-          <div class="espacio text-center">
-            <p>
+      <!-- cabecera-->
+      <section class="fondo-azul p-cabecera text-light row" id="sobreMi">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center my-3">
+          <img src="img/foto-cv.png" alt="Mi foto" class="foto" />
+          <h2>Kevin Martin</h2>
+          <p class="lead">Full Stack Developer</p>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 my-3 px-5  d-inline text-center">
+          <div class="textDeMi">
+            <p class="letraSobreMI">
               Soy un estudiante de Ingenieria en Sistemas Informaticos, ademas estudio Desarrollo Web Full Stack y tengo interes en ampliar mis conocimientos sobre programación. Me gusta crear proyectos con cada nueva tecnologia que aprendo y trabajar en resolver problemas.
             </p>
           </div>
-        </article>
+          <div class="mt-3">
+            <div class="btn boton mx-1 text-light"><strong>HTML</strong></div>
+            <div class="btn boton mx-1 text-light"><strong>CSS</strong></div>
+            <div class="btn boton mx-1 text-light"><strong>JavaScript</strong></div>
+          </div>
+        </div>
       </section>
+
       <section class="ptK container" id="educacion">
         <!--education-->
         <h2 class="text-center display-4">Educación</h2>
@@ -110,7 +100,7 @@ emailjs.init("user_ddoRn0tnonZZiPk0AYJm3");
                     </p>
                   </div>
                   <div class="col-6 d-flex justify-content-end">
-                    <a href="#" class="btn boton text-light">Pagina</a>
+                    <a href="https://rollingcodeschool.com/" class="btn boton text-light">Pagina</a>
                   </div>
                 </div>
               </div>
@@ -136,7 +126,7 @@ emailjs.init("user_ddoRn0tnonZZiPk0AYJm3");
                     </p>
                   </div>
                   <div class="col-6 d-flex justify-content-end">
-                    <a href="#" class="btn boton text-light">Pagina</a>
+                    <a href="https://utn.edu.ar/es/" class="btn boton text-light">Pagina</a>
                   </div>
                 </div>
               </div>
@@ -210,6 +200,19 @@ emailjs.init("user_ddoRn0tnonZZiPk0AYJm3");
         <article class="fondo-blanco shadow rounded p-3">
           <h3>Contacto</h3>
           <hr>
+          <ul class="list-unstyled">
+            <li><span class="font-weight-bold">Edad:</span> 20 años</li>
+            <li>
+              <span class="font-weight-bold">Email:</span>
+              <i class="fas fa-mail-bulk icono"></i> 
+                <a href="mailto:kevmartin2001@gmail.com">kevmartin2001@gmail.com</a>
+            </li>
+            <li>
+              <span class="font-weight-bold">Telefono:</span> +54 9 381 6791746
+            </li>
+          </ul>
+          <h4>Envie una consulta!</h4>
+          <hr>
           <form onsubmit="validarGeneral(event)">
             <div class="mb-3">
               <label>Nombre y Apellido *</label>
@@ -260,13 +263,13 @@ emailjs.init("user_ddoRn0tnonZZiPk0AYJm3");
     </main>
     <footer class="bg-dark text-light text-center py-4">
       <div class="container">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/kevin-mart%C3%ADn-3872b11b2" target="blank">
           <i class="fab fa-linkedin fa-3x redes text-light mr-1"></i>
         </a>
-        <a href="#">
+        <a href="https://github.com/Kevin2407" target="blank">
           <i class="fab fa-github-square fa-3x redes text-light mr-1"></i>
         </a>
-        <a href="#">
+        <a href="https://instagram.com/kevin.martin24?utm_medium=copy_link" target="blank">
           <i class="fa-brands fa-instagram-square fa-3x redes text-light"></i>
         </a>
         <p class="lead mt-2">Kevin Martín</p>
