@@ -1,9 +1,12 @@
 /* https://colorhunt.co/palette/220248 */
 
+body {
+  background-color: #E8E8E8;
+}
+
 .fondo-azul {
   background: #30475e;
 }
-
 
 .fondo-navbar{
   background-color: #222831;
@@ -134,6 +137,26 @@ html{
     padding: 12px 0;
   }
 }
+
+.consulta {
+  resize: none;
+  height: 150px;
+}
+
+/* .redes a:hover{
+  color: #30475e;
+} */
+
+.ptK {
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
 
 
 
