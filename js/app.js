@@ -9,7 +9,6 @@ function noVacio(elemento,condicion) {
 }
 
 function validar(input,valor) {
-
     // valor = 1 --> validar texto
     // valor = 2 --> validar email
     // valor = 3 --> validar numero
@@ -59,10 +58,6 @@ function validarGeneral(event){
         }
     }
 }
-
-
-
-
 
 function enviarEmail(){
     emailjs.send("service_2qem7iv","template_l3vqgtj",{
